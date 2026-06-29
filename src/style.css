@@ -1,5 +1,19 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
     background: white;
+}
+
+#palo-superior {
+    font-size: 90px;
+}
+
+#palo-inferior {
+    font-size: 90px;
+    transform: rotate(180deg);
+    align-self: flex-end;
+}
+
+#numero {
+    w: 100
 }
